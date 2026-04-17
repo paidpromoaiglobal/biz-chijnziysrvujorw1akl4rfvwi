@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#C8102E">
+<title>Star Fancy Fashion Jewellery – Fashion Jewellery, Clothing &amp; Hair Care in Washermanpet, Chennai</title>
+<meta name="description" content="Visit Star Fancy Fashion Jewellery at MC Road, Washermanpet, Chennai for the best collection of fashion jewellery, trendy clothing, and hair care products. Open daily 10 AM–10 PM. Call 097155 64319.">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:'Inter',sans-serif;color:#1a1209;background:#fdfcf7;-webkit-font-smoothing:antialiased}
+.wa-float{position:fixed;bottom:24px;right:24px;z-index:9999;background:#25d366;width:58px;height:58px;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 20px rgba(37,211,102,0.45);text-decoration:none;transition:transform .2s}.wa-float:hover{transform:scale(1.1)}
+nav{position:fixed;top:0;left:0;right:0;z-index:900;background:rgba(253,252,247,.96);backdrop-filter:blur(12px);border-bottom:1px solid #ede0c4;padding:0 5vw;display:flex;align-items:center;justify-content:space-between;height:62px}
+.nav-brand{font-family:'Cormorant Garamond',serif;font-size:1.25rem;font-weight:600;color:#C8102E;letter-spacing:.04em}
+.nav-cta{background:#FFD700;color:#fff;padding:9px 22px;border-radius:2px;text-decoration:none;font-size:.82rem;font-weight:600;letter-spacing:.06em;text-transform:uppercase}
+/* HERO */
+.hero{position:relative;height:100svh;min-height:600px;display:flex;align-items:center;overflow:hidden}
+.hero-bg{position:absolute;inset:-15%;width:130%;height:130%;background-image:url('https://images.unsplash.com/photo-1617038220319-276d3cfab638?w=1600&q=85&fit=crop&auto=format');background-size:cover;background-position:center;will-change:transform}
+.hero-overlay{position:absolute;inset:0;background:linear-gradient(to right,rgba(10,6,0,.88) 0%,rgba(10,6,0,.5) 55%,rgba(10,6,0,.15) 100%)}
+.hero-content{position:relative;z-index:2;padding:0 5vw;max-width:600px;color:#fff}
+.hero-eyebrow{font-size:.72rem;letter-spacing:.22em;text-transform:uppercase;color:#FFD700;margin-bottom:20px;font-weight:500}
+.hero h1{font-family:'Cormorant Garamond',serif;font-size:clamp(2.2rem,5.5vw,3.8rem);font-weight:700;line-height:1.18;margin-bottom:18px;letter-spacing:-.01em}
+.hero p{font-size:clamp(.9rem,2vw,1.05rem);opacity:.82;line-height:1.75;margin-bottom:30px;max-width:460px}
+.hero-btns{display:flex;gap:12px;flex-wrap:wrap}
+.btn-gold{background:#FFD700;color:#fff;padding:14px 32px;text-decoration:none;font-weight:600;font-size:.88rem;letter-spacing:.08em;text-transform:uppercase;border-radius:2px}
+.btn-ghost{background:transparent;border:1px solid rgba(255,255,255,.45);color:#fff;padding:13px 28px;text-decoration:none;font-size:.88rem;letter-spacing:.06em;text-transform:uppercase;border-radius:2px}
+/* TRUST */
+.trust-bar{background:#C8102E;display:grid;grid-template-columns:repeat(2,1fr)}
+@media(min-width:640px){.trust-bar{grid-template-columns:repeat(4,1fr)}}
+.trust-item{padding:20px 16px;text-align:center;border-right:1px solid rgba(255,255,255,.08)}
+.trust-item:last-child{border:none}
+.trust-num{font-family:'Cormorant Garamond',serif;font-size:1.8rem;font-weight:700;color:#FFD700;line-height:1}
+.trust-lbl{font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.5);margin-top:4px}
+/* ABOUT */
+section{padding:64px 5vw}
+.container{max-width:1000px;margin:0 auto}
+.sec-label{font-size:.7rem;letter-spacing:.18em;text-transform:uppercase;color:#FFD700;margin-bottom:8px}
+.about-grid{display:grid;grid-template-columns:1fr;gap:40px}
+@media(min-width:768px){.about-grid{grid-template-columns:1fr 1fr;align-items:center}}
+.about-img{width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:2px}
+.about-text h2{font-family:'Cormorant Garamond',serif;font-size:clamp(1.8rem,3.5vw,2.5rem);color:#C8102E;margin-bottom:18px}
+.about-text p{color:#5a4a30;line-height:1.85;margin-bottom:14px;font-size:.93rem}
+.hl-list{list-style:none;margin-top:18px;border-top:1px solid #ede0c4}
+.hl-list li{padding:9px 0 9px 22px;position:relative;color:#5a4a30;font-size:.87rem;border-bottom:1px solid #ede0c4}
+.hl-list li:before{content:'◆';color:#FFD700;position:absolute;left:0;font-size:.55rem;top:12px}
+/* COLLECTION */
+.collection-bg{background:#f9f5ec}
+.catalog-grid{display:grid;grid-template-columns:1fr;gap:16px;margin-top:36px}
+@media(min-width:480px){.catalog-grid{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:900px){.catalog-grid{grid-template-columns:repeat(3,1fr)}}
+.cat-card{background:#fff;border:1px solid #ede0c4;border-radius:2px;padding:26px;transition:box-shadow .2s}
+.cat-card:hover{box-shadow:0 6px 24px rgba(0,0,0,.1)}
+.cat-card h3{font-family:'Cormorant Garamond',serif;font-size:1.2rem;color:#C8102E;margin-bottom:8px}
+.cat-card p{color:#7a6040;font-size:.87rem;line-height:1.65}
+/* PARALLAX */
+.parallax-strip{position:relative;min-height:340px;display:flex;align-items:center;justify-content:center;overflow:hidden}
+.pstrip-bg{position:absolute;inset:-20%;width:140%;height:140%;background-image:url('https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=1200&q=80&fit=crop&auto=format');background-size:cover;background-position:center;will-change:transform}
+.pstrip-overlay{position:absolute;inset:0;background:rgba(10,6,0,.72)}
+.pstrip-content{position:relative;z-index:2;text-align:center;color:#fff;padding:48px 5vw;max-width:600px}
+.pstrip-content h2{font-family:'Cormorant Garamond',serif;font-size:clamp(1.8rem,3.5vw,2.5rem);margin-bottom:14px}
+.pstrip-content p{opacity:.75;margin-bottom:28px;font-size:.95rem}
+/* GALLERY */
+.gallery-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:8px}
+@media(min-width:600px){.gallery-grid{grid-template-columns:repeat(3,1fr)}}
+.gallery-grid img{width:100%;aspect-ratio:3/4;object-fit:cover;border-radius:2px;transition:opacity .3s}
+.gallery-grid img:hover{opacity:.85}
+/* REVIEWS */
+.reviews-bg{background:#1a1209;color:#fff}
+.rv-grid{display:grid;grid-template-columns:1fr;gap:16px;margin-top:32px}
+@media(min-width:640px){.rv-grid{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:900px){.rv-grid{grid-template-columns:repeat(3,1fr)}}
+.rv-card{border:1px solid rgba(255,255,255,.08);padding:24px;border-radius:2px;position:relative}
+.rv-card:before{content:'"';position:absolute;top:-6px;left:16px;font-size:3.5rem;color:#FFD700;opacity:.25;font-family:'Cormorant Garamond',serif;line-height:1}
+.rv-stars{color:#FFD700;margin-bottom:10px}
+.rv-text{color:rgba(255,255,255,.65);font-size:.9rem;line-height:1.7;font-style:italic;margin-bottom:14px}
+.rv-author{color:rgba(255,255,255,.4);font-size:.82rem;font-weight:600;letter-spacing:.04em}
+/* CTA */
+.cta-section{background:#C8102E;color:#fff;text-align:center;padding:64px 5vw}
+.cta-section h2{font-family:'Cormorant Garamond',serif;font-size:clamp(1.8rem,3.5vw,2.5rem);margin-bottom:14px}
+.cta-btns{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:28px}
+footer{background:#0a0600;color:#7a6040;text-align:center;padding:22px;font-size:.78rem;letter-spacing:.03em}
+</style>
+</head>
+<body>
+<nav>
+  <span class="nav-brand">STAR FANCY FASHION JEWELLERY</span>
+  <a href="https://wa.me/919715564319?text=Hi!%20I%20visited%20your%20website%20and%20I'm%20interested%20in%20your%20fashion%20jewellery%20and%20clothing%20collection.%20Could%20you%20please%20share%20more%20details%20about%20your%20latest%20products%20and%20prices%3F" class="nav-cta">Enquire Now</a>
+</nav>
+<div class="hero">
+  <div class="hero-bg" id="hp"></div>
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <div class="hero-eyebrow">Tamil Nadu 600021, India</div>
+    <h1>Shine Bright with Star Fancy Fashion Jewellery</h1>
+    <p>Your one-stop destination for stunning fashion jewellery, trendy clothing, and hair care essentials in the heart of Washermanpet, Chennai.</p>
+    <div class="hero-btns">
+      <a href="https://wa.me/919715564319?text=Hi!%20I%20visited%20your%20website%20and%20I'm%20interested%20in%20your%20fashion%20jewellery%20and%20clothing%20collection.%20Could%20you%20please%20share%20more%20details%20about%20your%20latest%20products%20and%20prices%3F" class="btn-gold">Visit Us Today &amp; Discover Your Style</a>
+      <a href="tel:097155 64319" class="btn-ghost">📞 Call Us</a>
+    </div>
+  </div>
+</div>
+<div class="trust-bar">
+  <div class="trust-item"><div class="trust-num">5/5</div><div class="trust-lbl">Rating</div></div>
+  <div class="trust-item"><div class="trust-num">✓</div><div class="trust-lbl">Verified</div></div>
+  <div class="trust-item"><div class="trust-num">100%</div><div class="trust-lbl">Authentic</div></div>
+  <div class="trust-item"><div class="trust-num">BIS</div><div class="trust-lbl">Certified</div></div>
+</div>
+<section>
+  <div class="container">
+    <div class="about-grid">
+      <img src="https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AU_ZVEHqYysB5_WcEOyJ-85B3MHexM7FXkjNqc3GuA7v4edRh-BocDV0bGLapLaF6W1FTgrTiF0gwbx7b9nu8KSUchkk7z2gndLIAX8ESIZyZ2ofl6vTAMQFeI0nLg_EL8kZX2Bqgogch3MRjzF1a-bljEcQMA0rvVZa_H_D8bghX-iA3D_HR9ojaOxmRMaLQdVvdVsI32Jtqc17psLAZ51dLIhVDqr4XPCBJ2Hx6FJwOXnO05FkJ-_-Tkm-JFugy-FJCyQ1736e8lnTTko90gnLozSU9aH_yTRo5vHFTnwXR8BiyQ&key=AIzaSyC_ivUff6pQaag6HCBj5_PO3mk1G6kCKKs" alt="STAR FANCY FASHION JEWELLERY" class="about-img" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1617038220319-276d3cfab638?w=1600&q=85&fit=crop&auto=format'">
+      <div class="about-text">
+        <p class="sec-label">Our Legacy</p>
+        <h2>STAR FANCY FASHION JEWELLERY</h2>
+        <p>Welcome to Star Fancy Fashion Jewellery, nestled at 95, MC Road, NN Garden, Washermanpet, Chennai. We are a beloved neighbourhood store offering a dazzling collection of fashion jewellery, stylish clothing, and hair care products to suit every taste and occasion. Whether you are looking for the perfect accessory to complete your outfit or seeking the latest trends in wearable fashion, we have something special waiting for you.</p><p>At Star Fancy Fashion Jewellery, we take pride in delivering a warm, personalised shopping experience that keeps our customers coming back. Our wide range of affordable and eye-catching pieces has earned us a perfect 5-star reputation among our valued patrons. Open every day from 10:00 AM to 10:00 PM, we make it easy and convenient for you to find exactly what you need. Come visit us and discover why we are the favourite fashion destination in the neighbourhood!</p>
+        <ul class="hl-list"><li>Perfect 5-Star Rating from happy customers</li><li>Open 7 days a week from 10:00 AM to 10:00 PM for your convenience</li><li>One-stop shop for jewellery, clothing, and hair care in Washermanpet, Chennai</li></ul>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="collection-bg">
+  <div class="container">
+    <p class="sec-label">Collection</p>
+    <h2 style="font-family:'Cormorant Garamond',serif;font-size:clamp(1.8rem,3.5vw,2.5rem);color:#C8102E;margin-bottom:8px">Our Offerings</h2>
+    <div class="catalog-grid"><div class="cat-card"><h3>Fashion Jewellery</h3><p>Explore our extensive collection of trendy and affordable fashion jewellery including necklaces, earrings, bangles, rings, and more to suit every occasion and outfit.</p></div><div class="cat-card"><h3>Clothing</h3><p>Browse through our curated selection of stylish clothing for women and girls, featuring the latest designs and fashionable styles at pocket-friendly prices.</p></div><div class="cat-card"><h3>Hair Care Products</h3><p>Find a variety of hair care essentials and accessories to keep your hair looking beautiful and healthy, all available conveniently under one roof.</p></div><div class="cat-card"><h3>Accessories &amp; More</h3><p>Discover a wide range of fashion accessories and lifestyle products designed to complement your look and elevate your everyday style.</p></div></div>
+  </div>
+</section>
+<div class="parallax-strip">
+  <div class="pstrip-bg" id="ps"></div>
+  <div class="pstrip-overlay"></div>
+  <div class="pstrip-content">
+    <h2>Visit Our Store</h2>
+    <p>95, MC Rd, NN Garden, Washermanpet, Chennai, Tamil Nadu 600021, India</p>
+    <a href="https://wa.me/919715564319?text=Hi!%20I%20visited%20your%20website%20and%20I'm%20interested%20in%20your%20fashion%20jewellery%20and%20clothing%20collection.%20Could%20you%20please%20share%20more%20details%20about%20your%20latest%20products%20and%20prices%3F" style="background:#FFD700;color:#fff;padding:13px 30px;border-radius:2px;text-decoration:none;font-weight:600;letter-spacing:.06em;text-transform:uppercase;font-size:.88rem">💬 WhatsApp Enquiry</a>
+  </div>
+</div>
+<section><div class="container"><p class="sec-label">Gallery</p><h2 style="font-family:'Cormorant Garamond',serif;font-size:clamp(1.8rem,3.5vw,2.5rem);color:#C8102E;margin-bottom:28px">Our Store</h2><div class="gallery-grid"><img src="https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AU_ZVEHqYysB5_WcEOyJ-85B3MHexM7FXkjNqc3GuA7v4edRh-BocDV0bGLapLaF6W1FTgrTiF0gwbx7b9nu8KSUchkk7z2gndLIAX8ESIZyZ2ofl6vTAMQFeI0nLg_EL8kZX2Bqgogch3MRjzF1a-bljEcQMA0rvVZa_H_D8bghX-iA3D_HR9ojaOxmRMaLQdVvdVsI32Jtqc17psLAZ51dLIhVDqr4XPCBJ2Hx6FJwOXnO05FkJ-_-Tkm-JFugy-FJCyQ1736e8lnTTko90gnLozSU9aH_yTRo5vHFTnwXR8BiyQ&key=AIzaSyC_ivUff6pQaag6HCBj5_PO3mk1G6kCKKs" alt="STAR FANCY FASHION JEWELLERY" loading="lazy" onerror="this.parentElement.remove()"><img src="https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AU_ZVEG8AZSr7Tr6gWGZuWAylNx95pB214upu6OUuyTtYySLfd3iv0TqBggt_1LRMDs7LPTeLF0L7EHe6oTrkxdYJ4jY0TnUCyVz8R59bUprR8Qx0CP6HRDJKhpC-x5E8dNq0tqdonjjaCWzfD7F0Xp9xgOmWgzaHH90ownaM9GNmL11enIH1gZ6IXSU823SC1LNArznte3eug2fGExlToBRBbHC-kAogaEIEB-Bzf9N_MY9x1_gif8heO2ITarNxiiLGlRRvjlTW-mj41KYJUA0w1J8eB_GtnJ-pHCChjD0tO4WjA&key=AIzaSyC_ivUff6pQaag6HCBj5_PO3mk1G6kCKKs" alt="STAR FANCY FASHION JEWELLERY" loading="lazy" onerror="this.parentElement.remove()"><img src="https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AU_ZVEE9yjPzP4_q4CtasXrvv2Kgmj_fRIQORc_Et1yUVF88P7O1nNNl0yU_p1hqZrATYcqbIo86RgHVSVafkDmQ88CSDS_o8XFrnF0Cf0nRzfVAbEIJ2yoBdHNsgDOnY76dZh20AZsO1MDpWrd8CJ0PkEdGtMoKeCk3gYK4tuSYlp3ODSnftmVYb88QZ44i-Mn425i77daje82vYJm0dTr4x7LgeG0k16zqEn2HL9jpQPn48ADmn8zuvjHGIikEcGte9dw14f31vPcLnLisgUqs_ukxxytTv_5nOvBMoJIY_7Ck9g&key=AIzaSyC_ivUff6pQaag6HCBj5_PO3mk1G6kCKKs" alt="STAR FANCY FASHION JEWELLERY" loading="lazy" onerror="this.parentElement.remove()"><img src="https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AU_ZVEHJrl6PY5Ng8J4mn6GS_qBebgUVw5U58qrVkz0h6xnj-vsdTOu6gwqI-XIjznlj7JmbvX_zNr1rCybtL8N4eAGmTrMh1i1SHambNBMSiazCnfGeVZ_ZsuxAjVs0M1Rfn8L3UghkzpeR3WSvDA7SPgCoPbBr-V9BCXNERgx7KbBKbD99cb1VxJyYxakZ5_UvNwePmbZW-D98pZSMCBozDwtJ15XXfXkdTyg2jVzeeCm2yLwojgZHLzUh18o2T-1_0OMvsfNbM8lRaNDCjMYKmxaJqiUaaPPYz910FvjKVpgCSg&key=AIzaSyC_ivUff6pQaag6HCBj5_PO3mk1G6kCKKs" alt="STAR FANCY FASHION JEWELLERY" loading="lazy" onerror="this.parentElement.remove()"><img src="https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AU_ZVEG61cU4DuMCdU0OzpHcfYaBStbYXNRJIGKr8Gr1M7dYjReXoLL2uorRcWXeh0x6AsM0edYHr9LoDHR3fRxdgpIcyOhIotCKQpmbEnI6UC2-O1t-5ulc8OUmy-tFLKWdW_54n6YSDIuq9KqTbDKNM89ytD1aXoRgvcbXCRbgSbUTfDrnteLrDld0eyA9_UioOt4OZyjWeFH0WXUSkkWwsPFEP8B2HuK5jSePpVIJZwmzBy6mClLkHnKJ8cOup8F60uUjCmRwRSs2uygbVLtk4QHvJrCEoFxFoK2X71Ku31fM4A&key=AIzaSyC_ivUff6pQaag6HCBj5_PO3mk1G6kCKKs" alt="STAR FANCY FASHION JEWELLERY" loading="lazy" onerror="this.parentElement.remove()"></div></div></section>
+<section class="reviews-bg">
+  <div class="container">
+    <p class="sec-label" style="color:rgba(255,255,255,.4)">Reviews</p>
+    <h2 style="font-family:'Cormorant Garamond',serif;font-size:clamp(1.8rem,3.5vw,2.5rem);color:#fff;margin-bottom:8px">Customer Stories</h2>
+    <div class="rv-grid"><div class="rv-card"><div class="rv-stars">★★★★★</div><p class="rv-text">Very nice shop with a great collection of fashion jewellery and clothing. Highly recommended!</p><div class="rv-author">— Mohamed Aarif</div></div><div class="rv-card"><div class="rv-stars">★★★★★</div><p class="rv-text">Wonderful shopping experience with beautiful products and very helpful staff.</p><div class="rv-author">— Nilofar Kurshith K</div></div><div class="rv-card"><div class="rv-stars">★★★★★</div><p class="rv-text">Amazing variety of fashion jewellery at great prices. My favourite store in Washermanpet!</p><div class="rv-author">— ABUHANIFA A</div></div></div>
+  </div>
+</section>
+<div class="cta-section">
+  <p class="sec-label" style="color:rgba(255,255,255,.5)">Come See Us</p>
+  <h2>Experience the Difference</h2>
+  <p style="opacity:.75;max-width:480px;margin:0 auto;font-size:.95rem">95, MC Rd, NN Garden, Washermanpet, Chennai, Tamil Nadu 600021, India · Monday: 10:00 AM – 10:00 PM | Tuesday: 10:00 AM – 10:00 PM | Wednesday: 10:00 AM – 10:00 PM | Thursday: 10:00 AM – 10:00 PM | Friday: 10:00 AM – 10:00 PM | Saturday: 10:00 AM – 10:00 PM | Sunday: 10:00 AM – 10:00 PM</p>
+  <div class="cta-btns">
+    <a href="https://wa.me/919715564319?text=Hi!%20I%20visited%20your%20website%20and%20I'm%20interested%20in%20your%20fashion%20jewellery%20and%20clothing%20collection.%20Could%20you%20please%20share%20more%20details%20about%20your%20latest%20products%20and%20prices%3F" class="btn-gold">💬 WhatsApp Us</a>
+    <a href="tel:097155 64319" class="btn-ghost">📞 097155 64319</a>
+    <a href="https://maps.google.com/?cid=168849295645759171" class="btn-ghost">📍 Get Directions</a>
+  </div>
+</div>
+<footer>© 2026 STAR FANCY FASHION JEWELLERY &nbsp;·&nbsp; All Rights Reserved</footer>
+<a href="https://wa.me/919715564319?text=Hi!%20I%20visited%20your%20website%20and%20I'm%20interested%20in%20your%20fashion%20jewellery%20and%20clothing%20collection.%20Could%20you%20please%20share%20more%20details%20about%20your%20latest%20products%20and%20prices%3F" class="wa-float" title="Chat on WhatsApp" aria-label="WhatsApp">
+  <svg width="28" height="28" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+</a>
+<script>
+if(window.innerWidth>768){
+  const hp=document.getElementById('hp'),ps=document.getElementById('ps');
+  window.addEventListener('scroll',()=>{
+    const y=window.scrollY;
+    if(hp)hp.style.transform='translateY('+y*.28+'px)';
+    if(ps){const r=ps.closest('.parallax-strip').getBoundingClientRect();ps.style.transform='translateY('+(r.top*.18)+'px)'}
+  },{passive:true});
+}
+</script>
+</body></html>
